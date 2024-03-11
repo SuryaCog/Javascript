@@ -1,0 +1,72 @@
+body{
+    background-color: #f4edd3;
+}
+header{
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#headerLogo{
+    height: 100px;
+    width: 100px;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    list-style-type: none;
+    margin: 0px 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.dropbtn{
+    cursor: pointer;
+}
+.dropdown-content {
+    position: absolute;
+    margin-top: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color:#f4edd3;
+}
+.dropdown-content a {
+display: block;
+padding: 6px 10px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#bannerBtn{
+    height: 40px;
+    width: 100px;
+    background-color: red;
+    color: #f4edd3;
+    border-radius: 20px;
+}
+.tab{
+    padding: 0px 100px;
+}
+.tabButtons{
+    display: flex;
+    border-bottom: solid 2px;
+}
+.tabButtons li{
+    list-style-type: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.tabContents li{
+    list-style-type: none;
+}
+.tabContents li img{
+    margin: 20px;
+    height: 200px;
+    width: 500px;
+}
